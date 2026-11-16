@@ -1,0 +1,36 @@
+{
+  "steps": [
+    {
+      "level": 1,
+      "config": {
+        "messages": 8,
+        "forward_noise_variance": 0.1
+      },
+      "accuracies": [
+        0.9208984375,
+        0.9234619140625
+      ],
+      "mean_accuracy": 0.92218017578125,
+      "passed": true
+    }
+  ],
+  "selected": {
+    "level": 1,
+    "config": {
+      "messages": 8,
+      "forward_noise_variance": 0.1
+    },
+    "accuracies": [
+      0.9208984375,
+      0.9234619140625
+    ],
+    "mean_accuracy": 0.92218017578125,
+    "passed": true
+  },
+  "selection_time": 1792023385.199125,
+  "gate_passed": true,
+  "unrun_levels": [
+    2,
+    3
+  ]
+}

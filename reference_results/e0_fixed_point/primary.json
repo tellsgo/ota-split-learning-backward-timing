@@ -1,0 +1,184 @@
+{
+  "cells": [
+    {
+      "spectrum": "isotropic",
+      "direction": "parallel",
+      "d": 0.0,
+      "target": 1.0,
+      "observed": 1.0,
+      "bias": 0.0,
+      "mc_se": 1.5639472591400866e-16,
+      "z": 0.0,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "parallel",
+      "d": 0.1,
+      "target": 1.0,
+      "observed": 0.9999979748635848,
+      "bias": -2.0251364151457896e-06,
+      "mc_se": 9.584134549086928e-07,
+      "z": 2.113009166110593,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "parallel",
+      "d": 0.3,
+      "target": 1.0,
+      "observed": 0.9999019122416908,
+      "bias": -9.808775830917604e-05,
+      "mc_se": 4.6398296083513025e-05,
+      "z": 2.1140379408033936,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "parallel",
+      "d": 0.5,
+      "target": -1.0,
+      "observed": -0.9999118439377368,
+      "bias": 8.815606226321437e-05,
+      "mc_se": 4.174373965711514e-05,
+      "z": 2.1118391161724377,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "perpendicular",
+      "d": 0.0,
+      "target": 1.0,
+      "observed": 1.0,
+      "bias": 0.0,
+      "mc_se": 1.5639472591400866e-16,
+      "z": 0.0,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "perpendicular",
+      "d": 0.1,
+      "target": 1.0,
+      "observed": 0.9999979748635848,
+      "bias": -2.0251364152013007e-06,
+      "mc_se": 9.584134549022952e-07,
+      "z": 2.113009166182618,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "perpendicular",
+      "d": 0.3,
+      "target": 1.0,
+      "observed": 0.9999019122416908,
+      "bias": -9.808775830917604e-05,
+      "mc_se": 4.639829608351641e-05,
+      "z": 2.1140379408032395,
+      "passed": true
+    },
+    {
+      "spectrum": "isotropic",
+      "direction": "perpendicular",
+      "d": 0.5,
+      "target": -1.0,
+      "observed": -0.9999118439377368,
+      "bias": 8.815606226321437e-05,
+      "mc_se": 4.1743739657105485e-05,
+      "z": 2.111839116172926,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "parallel",
+      "d": 0.0,
+      "target": 1.0,
+      "observed": 1.0,
+      "bias": 0.0,
+      "mc_se": 1.5639472591400866e-16,
+      "z": 0.0,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "parallel",
+      "d": 0.1,
+      "target": 0.9661766043173201,
+      "observed": 0.9661609216701277,
+      "bias": -1.5682647192497012e-05,
+      "mc_se": 9.148247672640547e-05,
+      "z": 0.17142788164118844,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "parallel",
+      "d": 0.3,
+      "target": 0.45953207475045976,
+      "observed": 0.45871488971534347,
+      "bias": -0.0008171850351162621,
+      "mc_se": 0.001258784143328175,
+      "z": 0.6491859938397837,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "parallel",
+      "d": 0.5,
+      "target": -0.8455682150579861,
+      "observed": -0.8459355024462296,
+      "bias": -0.00036728738824354235,
+      "mc_se": 0.0009572662863470268,
+      "z": 0.38368361393476863,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "perpendicular",
+      "d": 0.0,
+      "target": 1.0,
+      "observed": 1.0,
+      "bias": 0.0,
+      "mc_se": 1.5639472591400866e-16,
+      "z": 0.0,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "perpendicular",
+      "d": 0.1,
+      "target": 0.9833807736896317,
+      "observed": 0.9833727954587568,
+      "bias": -7.978230874908232e-06,
+      "mc_se": 6.557109720701639e-05,
+      "z": 0.12167298115692544,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "perpendicular",
+      "d": 0.3,
+      "target": 0.7042822134206481,
+      "observed": 0.703688646241915,
+      "bias": -0.0005935671787332258,
+      "mc_se": 0.0011460141427800234,
+      "z": 0.5179405354399371,
+      "passed": true
+    },
+    {
+      "spectrum": "broad",
+      "direction": "perpendicular",
+      "d": 0.5,
+      "target": -0.7625587646241585,
+      "observed": -0.7633715669794867,
+      "bias": -0.0008128023553281849,
+      "mc_se": 0.0017696288896254175,
+      "z": 0.45930667163793487,
+      "passed": true
+    }
+  ],
+  "max_z": 2.1140379408033936,
+  "analytic_max_error": 4.440892098500626e-16,
+  "verdict": "supported under this setting",
+  "estimator": "cosine of conditional mean, never mean of individual cosines; jackknife MC SE over 128 independent blocks per seed"
+}

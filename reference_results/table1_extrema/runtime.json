@@ -1,0 +1,12 @@
+{
+  "started_epoch": 1792044517.737375,
+  "finished_epoch": 1792044520.052447,
+  "wall_seconds": 2.3150720596313477,
+  "pid": 77043,
+  "host": "redacted",
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "numpy": "2.0.2",
+  "rows": 96,
+  "csi_max_displacement_ce_difference": 0.0,
+  "freeze_verified": true
+}

@@ -1,0 +1,1294 @@
+[
+  {
+    "id": 1,
+    "paper": "$0.227\\lambda/v$",
+    "printed_value": [
+      0.227
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x-0.3827398748"
+  },
+  {
+    "id": 2,
+    "paper": "1.3\\,ms",
+    "printed_value": [
+      1.3
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "(x-0.3827398748)*299792458/(3.5e9*15)*1000"
+  },
+  {
+    "id": 3,
+    "paper": "$0.6$\\,ms",
+    "printed_value": [
+      0.6
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "(x-0.3827398748)*299792458/(3.5e9*33)*1000"
+  },
+  {
+    "id": 8,
+    "paper": "$0.709$ $[0.636,0.792]$",
+    "printed_value": [
+      0.709,
+      0.636,
+      0.792
+    ],
+    "file": "E1/primary.json",
+    "key_path": [
+      "raw_CE_improvement"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 9,
+    "paper": "$0.156$ CE $[0.134,0.178]$",
+    "printed_value": [
+      0.156,
+      0.134,
+      0.178
+    ],
+    "file": "E2/primary.json",
+    "key_path": [
+      "oracle_near_minus_reference"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 10,
+    "paper": "$7.3\\%$ $[-6.4\\%,19.7\\%]$",
+    "printed_value": [
+      7.3,
+      -6.4,
+      19.7
+    ],
+    "file": "E2/primary.json",
+    "key_path": [
+      "fraction_gap_closed"
+    ],
+    "rounding": [
+      1,
+      1,
+      1
+    ],
+    "formula": "[x['mean']*100, x['ci95'][0]*100, x['ci95'][1]*100]"
+  },
+  {
+    "id": 11,
+    "paper": "$0.153$ $[0.134,0.172]$",
+    "printed_value": [
+      0.153,
+      0.134,
+      0.172
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "delay_improvement"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 12,
+    "paper": "$1.08$--$1.31$\\,ms",
+    "printed_value": [
+      1.08,
+      1.31
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      2,
+      2
+    ],
+    "formula": "[(x-d)*299792458/(3.5e9*15)*1000 for d in (0.42,0.38)]"
+  },
+  {
+    "id": 13,
+    "paper": "$0.017$ $[0.006,0.024]$",
+    "printed_value": [
+      0.017,
+      0.006,
+      0.024
+    ],
+    "file": "table1_extrema/claims.json",
+    "key_path": [
+      "G2.2",
+      "phase_minus_d1"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], *x['ci95']]"
+  },
+  {
+    "id": 14,
+    "paper": "$0.035$ $[0.029,0.040]$",
+    "printed_value": [
+      0.035,
+      0.029,
+      0.04
+    ],
+    "file": "table1_extrema/claims.json",
+    "key_path": [
+      "G2.3",
+      "phase_minus_d1"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], *x['ci95']]"
+  },
+  {
+    "id": 15,
+    "paper": "$0.076$ $[0.064,0.089]$",
+    "printed_value": [
+      0.076,
+      0.064,
+      0.089
+    ],
+    "file": "table1_extrema/claims.json",
+    "key_path": [
+      "G2.1",
+      "phase_minus_CSI"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], *x['ci95']]"
+  },
+  {
+    "id": 16,
+    "paper": "$-0.0012$ $[-0.0026,-0.0001]$",
+    "printed_value": [
+      -0.0012,
+      -0.0026,
+      -0.0001
+    ],
+    "file": "E4/primary.json",
+    "key_path": [
+      "isotropic_1bit_minus_continuous"
+    ],
+    "rounding": [
+      4,
+      4,
+      4
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 17,
+    "paper": "$0.0075$ $[0.0061,0.0088]$",
+    "printed_value": [
+      0.0075,
+      0.0061,
+      0.0088
+    ],
+    "file": "E4/primary.json",
+    "key_path": [
+      "broad_2bit_minus_continuous"
+    ],
+    "rounding": [
+      4,
+      4,
+      4
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 18,
+    "paper": "$0.075$ CE $[0.068,0.083]$",
+    "printed_value": [
+      0.075,
+      0.068,
+      0.083
+    ],
+    "file": "E4/primary.json",
+    "key_path": [
+      "broad_near90_1bit_minus_continuous"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 19,
+    "paper": "$0.158$",
+    "printed_value": [
+      0.158
+    ],
+    "file": "rician_and_checks/B2.json",
+    "key_path": [
+      "gaps",
+      "0"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x['mean']"
+  },
+  {
+    "id": 20,
+    "paper": "$0.002$",
+    "printed_value": [
+      0.002
+    ],
+    "file": "rician_and_checks/B2.json",
+    "key_path": [
+      "gaps",
+      "1"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x['mean']"
+  },
+  {
+    "id": 21,
+    "paper": "$0.0004$",
+    "printed_value": [
+      0.0004
+    ],
+    "file": "rician_and_checks/B2.json",
+    "key_path": [
+      "gaps",
+      "3"
+    ],
+    "rounding": [
+      4
+    ],
+    "formula": "x['mean']"
+  },
+  {
+    "id": 22,
+    "paper": "$-0.00006$ $[-0.00016,0.00005]$",
+    "printed_value": [
+      -6e-05,
+      -0.00016,
+      5e-05
+    ],
+    "file": "rician_and_checks/B2.json",
+    "key_path": [
+      "gaps",
+      "10"
+    ],
+    "rounding": [
+      5,
+      5,
+      5
+    ],
+    "formula": "[x['mean'], *x['ci95']]"
+  },
+  {
+    "id": 23,
+    "paper": "$0.651$ CE $[0.561,0.735]$",
+    "printed_value": [
+      0.651,
+      0.561,
+      0.735
+    ],
+    "file": "rician_and_checks/B3.json",
+    "key_path": [
+      "raw_minus_phase64"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 24,
+    "paper": "$-0.0001$ $[-0.0005,0.0002]$",
+    "printed_value": [
+      -0.0001,
+      -0.0005,
+      0.0002
+    ],
+    "file": "B/primary.json",
+    "key_path": [
+      "B2"
+    ],
+    "rounding": [
+      4,
+      4,
+      4
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 25,
+    "paper": "$0.156$ $[0.134,0.179]$",
+    "printed_value": [
+      0.156,
+      0.134,
+      0.179
+    ],
+    "file": "B/primary.json",
+    "key_path": [
+      "B3"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 26,
+    "paper": "90.2 percent",
+    "printed_value": [
+      90.2
+    ],
+    "file": "E3/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.6098349456332522)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 27,
+    "paper": "about 83 percent",
+    "printed_value": [
+      83.0
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 28,
+    "paper": "91.8 percent",
+    "printed_value": [
+      91.8
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='csi'])*100"
+  },
+  {
+    "id": 29,
+    "paper": "$91.8\\%$",
+    "printed_value": [
+      91.8
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='csi'])*100"
+  },
+  {
+    "id": 30,
+    "paper": "$36.2\\%$",
+    "printed_value": [
+      36.2
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.55)<0.00001 and r['method']=='raw'])*100"
+  },
+  {
+    "id": 31,
+    "paper": "$89.4\\%$",
+    "printed_value": [
+      89.4
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<0.00001 and r['method']=='raw'])*100"
+  },
+  {
+    "id": 32,
+    "paper": "$90.2\\%$",
+    "printed_value": [
+      90.2
+    ],
+    "file": "E3/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.6098349456332522)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 33,
+    "paper": "$91.8\\%$",
+    "printed_value": [
+      91.8
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='csi'])*100"
+  },
+  {
+    "id": 132,
+    "paper": "1.1--1.3\\,ms",
+    "printed_value": [
+      1.1,
+      1.3
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      1,
+      1
+    ],
+    "formula": "[(x-d)*299792458/(3.5e9*15)*1000 for d in (0.42,0.38)]"
+  },
+  {
+    "id": 134,
+    "paper": "$87.9\\%$--$90.0\\%$",
+    "printed_value": [
+      87.9,
+      90.0
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1,
+      1
+    ],
+    "formula": "[min([mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-d)<1e-6 and r['method']=='phase'])*100 for d in (0.45,0.55,0.70)]), max([mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-d)<1e-6 and r['method']=='phase'])*100 for d in (0.45,0.55,0.70)])]"
+  },
+  {
+    "id": 135,
+    "paper": "$2.12$ jackknife standard errors",
+    "printed_value": [
+      2.12
+    ],
+    "file": "e0_fixed_point/primary.json",
+    "key_path": [
+      "max_z"
+    ],
+    "rounding": [
+      2
+    ]
+  },
+  {
+    "id": 136,
+    "paper": "$87.9\\%$ and $90.0\\%$",
+    "printed_value": [
+      87.9,
+      90.0
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1,
+      1
+    ],
+    "formula": "[min([mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-d)<1e-6 and r['method']=='phase'])*100 for d in (0.45,0.55,0.70)]), max([mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-d)<1e-6 and r['method']=='phase'])*100 for d in (0.45,0.55,0.70)])]"
+  },
+  {
+    "id": 137,
+    "paper": "$0.50$ to $0.95$",
+    "printed_value": [
+      0.5,
+      0.95
+    ],
+    "file": "estimator_mc/results.json",
+    "key_path": [
+      "pilot_phase",
+      {
+        "d": 0.4
+      },
+      "mean_cos_error"
+    ],
+    "rounding": [
+      2,
+      2
+    ],
+    "formula": "[x[0], x[2]]"
+  },
+  {
+    "id": 138,
+    "paper": "$82\\%$--$84\\%$",
+    "printed_value": [
+      82,
+      84
+    ],
+    "file": "E2/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0,
+      0
+    ],
+    "formula": "[mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-d)<1e-6 and r['method']=='oracle'])*100 for d in (0.38,0.40)]"
+  },
+  {
+    "id": 139,
+    "paper": "$83.0\\%$",
+    "printed_value": [
+      83.0
+    ],
+    "file": "frozen_tx/PRIMARY_RESULTS.json",
+    "key_path": [
+      "summaries",
+      "frozen_accuracy",
+      "mean"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "x*100"
+  },
+  {
+    "id": 140,
+    "paper": "$0.016$ $[0.004,0.029]$",
+    "printed_value": [
+      0.016,
+      0.004,
+      0.029
+    ],
+    "file": "frozen_tx/PRIMARY_RESULTS.json",
+    "key_path": [
+      "primary"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 141,
+    "paper": "$0.172$ $[0.141,0.206]$",
+    "printed_value": [
+      0.172,
+      0.141,
+      0.206
+    ],
+    "file": "frozen_tx/PRIMARY_RESULTS.json",
+    "key_path": [
+      "transmitter_total_contribution"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 144,
+    "paper": "$-0.001$",
+    "printed_value": [
+      -0.001
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.383,
+        "arm": "phase_64"
+      }
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "j0(2*math.pi*x[0]['d'])"
+  },
+  {
+    "id": 147,
+    "paper": "0.608",
+    "printed_value": [
+      0.608
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.383,
+        "arm": "phase_64"
+      },
+      "ce"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x[0]['mean']"
+  },
+  {
+    "id": 148,
+    "paper": "82.4",
+    "printed_value": [
+      82.4
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.383,
+        "arm": "phase_64"
+      },
+      "mean_accuracy"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "x[0]*100"
+  },
+  {
+    "id": 150,
+    "paper": "$-0.403$",
+    "printed_value": [
+      -0.403
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.61,
+        "arm": "phase_64"
+      }
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "j0(2*math.pi*x[0]['d'])"
+  },
+  {
+    "id": 153,
+    "paper": "0.427",
+    "printed_value": [
+      0.427
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.61,
+        "arm": "phase_64"
+      },
+      "ce"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x[0]['mean']"
+  },
+  {
+    "id": 154,
+    "paper": "89.9",
+    "printed_value": [
+      89.9
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.61,
+        "arm": "phase_64"
+      },
+      "mean_accuracy"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "x[0]*100"
+  },
+  {
+    "id": 156,
+    "paper": "$\\phantom{-}0.300$",
+    "printed_value": [
+      0.3
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 1.117,
+        "arm": "phase_64"
+      }
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "j0(2*math.pi*x[0]['d'])"
+  },
+  {
+    "id": 159,
+    "paper": "0.443",
+    "printed_value": [
+      0.443
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 1.117,
+        "arm": "phase_64"
+      },
+      "ce"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x[0]['mean']"
+  },
+  {
+    "id": 160,
+    "paper": "89.2",
+    "printed_value": [
+      89.2
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 1.117,
+        "arm": "phase_64"
+      },
+      "mean_accuracy"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "x[0]*100"
+  },
+  {
+    "id": 162,
+    "paper": "$-0.250$",
+    "printed_value": [
+      -0.25
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 1.619,
+        "arm": "phase_64"
+      }
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "j0(2*math.pi*x[0]['d'])"
+  },
+  {
+    "id": 165,
+    "paper": "0.461",
+    "printed_value": [
+      0.461
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 1.619,
+        "arm": "phase_64"
+      },
+      "ce"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x[0]['mean']"
+  },
+  {
+    "id": 166,
+    "paper": "88.5",
+    "printed_value": [
+      88.5
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 1.619,
+        "arm": "phase_64"
+      },
+      "mean_accuracy"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "x[0]*100"
+  },
+  {
+    "id": 167,
+    "paper": "0.350",
+    "printed_value": [
+      0.35
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.383,
+        "arm": "CSI"
+      },
+      "ce"
+    ],
+    "rounding": [
+      3
+    ],
+    "formula": "x[0]['mean']"
+  },
+  {
+    "id": 168,
+    "paper": "91.6",
+    "printed_value": [
+      91.6
+    ],
+    "file": "table1_extrema/summary.json",
+    "key_path": [
+      "arms",
+      {
+        "d": 0.383,
+        "arm": "CSI"
+      },
+      "mean_accuracy"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "x[0]*100"
+  },
+  {
+    "id": 170,
+    "paper": "$180^\\circ$",
+    "printed_value": [
+      180.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0
+    ],
+    "formula": "math.degrees(math.atan2(next(r for r in x if r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.55)<1e-6)['geometry']['rho']['imag'], next(r for r in x if r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.55)<1e-6)['geometry']['rho']['real']))"
+  },
+  {
+    "id": 171,
+    "paper": "90.0",
+    "printed_value": [
+      90.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.55)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 172,
+    "paper": "90.0",
+    "printed_value": [
+      90.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.55)<0.00001 and r['method']=='phase2'])*100"
+  },
+  {
+    "id": 173,
+    "paper": "90.0",
+    "printed_value": [
+      90.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.55)<0.00001 and r['method']=='phase1'])*100"
+  },
+  {
+    "id": 175,
+    "paper": "$0^\\circ$",
+    "printed_value": [
+      0.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0
+    ],
+    "formula": "math.degrees(math.atan2(next(r for r in x if r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<1e-6)['geometry']['rho']['imag'], next(r for r in x if r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<1e-6)['geometry']['rho']['real']))"
+  },
+  {
+    "id": 176,
+    "paper": "89.4",
+    "printed_value": [
+      89.4
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 177,
+    "paper": "89.4",
+    "printed_value": [
+      89.4
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<0.00001 and r['method']=='phase2'])*100"
+  },
+  {
+    "id": 178,
+    "paper": "89.4",
+    "printed_value": [
+      89.4
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<0.00001 and r['method']=='phase1'])*100"
+  },
+  {
+    "id": 180,
+    "paper": "$63^\\circ$",
+    "printed_value": [
+      63.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0
+    ],
+    "formula": "math.degrees(math.atan2(next(r for r in x if r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.3)<1e-6)['geometry']['rho']['imag'], next(r for r in x if r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.3)<1e-6)['geometry']['rho']['real']))"
+  },
+  {
+    "id": 181,
+    "paper": "90.8",
+    "printed_value": [
+      90.8
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.3)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 182,
+    "paper": "90.6",
+    "printed_value": [
+      90.6
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.3)<0.00001 and r['method']=='phase2'])*100"
+  },
+  {
+    "id": 183,
+    "paper": "88.8",
+    "printed_value": [
+      88.8
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.3)<0.00001 and r['method']=='phase1'])*100"
+  },
+  {
+    "id": 185,
+    "paper": "$107^\\circ$",
+    "printed_value": [
+      107.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0
+    ],
+    "formula": "math.degrees(math.atan2(next(r for r in x if r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.4)<1e-6)['geometry']['rho']['imag'], next(r for r in x if r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.4)<1e-6)['geometry']['rho']['real']))"
+  },
+  {
+    "id": 186,
+    "paper": "90.3",
+    "printed_value": [
+      90.3
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 187,
+    "paper": "90.2",
+    "printed_value": [
+      90.2
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='phase2'])*100"
+  },
+  {
+    "id": 188,
+    "paper": "86.4",
+    "printed_value": [
+      86.4
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.4)<0.00001 and r['method']=='phase1'])*100"
+  },
+  {
+    "id": 190,
+    "paper": "$148^\\circ$",
+    "printed_value": [
+      148.0
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      0
+    ],
+    "formula": "math.degrees(math.atan2(next(r for r in x if r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.5)<1e-6)['geometry']['rho']['imag'], next(r for r in x if r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.5)<1e-6)['geometry']['rho']['real']))"
+  },
+  {
+    "id": 191,
+    "paper": "90.4",
+    "printed_value": [
+      90.4
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.5)<0.00001 and r['method']=='phase'])*100"
+  },
+  {
+    "id": 192,
+    "paper": "89.9",
+    "printed_value": [
+      89.9
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.5)<0.00001 and r['method']=='phase2'])*100"
+  },
+  {
+    "id": 193,
+    "paper": "89.9",
+    "printed_value": [
+      89.9
+    ],
+    "file": "E4/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1
+    ],
+    "formula": "mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='broad' and abs(r['geometry']['displacement_lambda']-0.5)<0.00001 and r['method']=='phase1'])*100"
+  },
+  {
+    "id": 194,
+    "paper": "$0.080$ $[0.069,0.092]$",
+    "printed_value": [
+      0.08,
+      0.069,
+      0.092
+    ],
+    "file": "B/primary.json",
+    "key_path": [
+      "all_gap_diagnostics",
+      "nr3_oracle"
+    ],
+    "rounding": [
+      3,
+      3,
+      3
+    ],
+    "formula": "[x['mean'], x['ci95'][0], x['ci95'][1]]"
+  },
+  {
+    "id": 195,
+    "paper": "$0.055$ at $d=0.40$",
+    "printed_value": [
+      0.055
+    ],
+    "file": "E2/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      3
+    ],
+    "formula": "abs(next(r for r in x if r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.4)<1e-6)['geometry']['rho']['real'])"
+  },
+  {
+    "id": 196,
+    "paper": "$0.009$ at $d=0.38$",
+    "printed_value": [
+      0.009
+    ],
+    "file": "E2/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      3
+    ],
+    "formula": "abs(next(r for r in x if r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-0.38)<1e-6)['geometry']['rho']['real'])"
+  },
+  {
+    "id": 197,
+    "paper": "$0.156$",
+    "printed_value": [
+      0.156
+    ],
+    "file": "E2/primary.json",
+    "key_path": [
+      "oracle_near_minus_reference",
+      "mean"
+    ],
+    "rounding": [
+      3
+    ]
+  },
+  {
+    "id": 198,
+    "paper": "$1.3$-ms wait",
+    "printed_value": [
+      1.3
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      1
+    ],
+    "formula": "(x-0.3827398748)*299792458/(3.5e9*15)*1000"
+  },
+  {
+    "id": 202,
+    "paper": "1-bit phase in all three cases",
+    "printed_value": [
+      1
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "best_method_per_d"
+    ],
+    "rounding": [
+      0
+    ],
+    "formula": "int(all(v == 'phase1' for v in x.values()))"
+  },
+  {
+    "id": 203,
+    "paper": "equal to phase correction to one decimal",
+    "printed_value": [
+      89.4,
+      89.4
+    ],
+    "file": "E1/all_runs.json",
+    "key_path": [],
+    "rounding": [
+      1,
+      1
+    ],
+    "formula": "[mean([r['service']['accuracy'] for r in x if r['nr']==1 and r['geometry']['spectrum']=='isotropic' and abs(r['geometry']['displacement_lambda']-1.05)<1e-6 and r['method']==method])*100 for method in ('raw','phase')]"
+  },
+  {
+    "id": 205,
+    "paper": "$0.6098\\approx d_1$",
+    "printed_value": [
+      0.6098
+    ],
+    "file": "E3/primary.json",
+    "key_path": [
+      "d1"
+    ],
+    "rounding": [
+      4
+    ]
+  }
+]

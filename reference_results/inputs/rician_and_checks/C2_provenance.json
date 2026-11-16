@@ -1,0 +1,14 @@
+{
+  "url": "https://www.etsi.org/deliver/etsi_tr/138900_138999/138901/19.05.00_60/tr_138901v190500p.pdf",
+  "version": "19.5.0",
+  "release": 19,
+  "date": "2026-09",
+  "section": "7.7.2",
+  "printed_page": 91,
+  "pdf_page_1based": 92,
+  "pages": 167,
+  "sha256": "6d29a37c1f254f4b9f8fd73a0be66bdb4480c6b32d0a64ef27505ca4188b1e4c",
+  "verified_time": 1792836625.937674,
+  "opened_original_via_web_and_pymupdf": true,
+  "quote": "The Doppler spectrum for each tap is characterized by a classical (Jakes) spectrum shape"
+}

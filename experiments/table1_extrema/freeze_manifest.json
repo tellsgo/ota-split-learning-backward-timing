@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-10-15T06:08:37.479191+00:00",
+  "hashes": {
+    "config.json": "b0a9f288208e7165fb67a3942d1795ec78da764c0506332e41576627ec41673d",
+    "figures/plot.py": "941fd258981b6b153ae085bff425a9609c4bc5260e823c71aa5590bf8dcbc098",
+    "infra/jobs.py": "778d825f6761c35d9a78966048b4a5e17b4b894156f3b458cfc5886a647f8428",
+    "src/reference_geo.py": "7eaca7603f04ab44455e32f1df106b73aaf6a71a484564fedc08043234da018b",
+    "src/core.py": "20c28046ad3ce8785e02b2123edeacf01cbfff7ed4aaf110fd69809bec2059d0",
+    "src/communication.py": "087acf4801bc6949485338c10e27684318509324ae1e72e1c0b50d3bcf3ec53b",
+    "src/run_g02.py": "4e30e323e5d35da0149e59955ac14ecee0dc6868f30b14060c0274298adc57a0"
+  }
+}

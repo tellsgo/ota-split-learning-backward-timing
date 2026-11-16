@@ -1,0 +1,52 @@
+{
+  "C1": {
+    "c_m_per_s": 299792458,
+    "carrier_hz": 3500000000.0,
+    "lambda_m": 0.085654988,
+    "window_lambda": [
+      0.45,
+      0.7
+    ],
+    "width_lambda": 0.25,
+    "slot_ms": 0.5,
+    "speeds": {
+      "15": {
+        "start_ms": 2.5696496399999997,
+        "end_ms": 3.997232773333333,
+        "width_ms": 1.4275831333333333,
+        "width_in_slots": 2.8551662666666666
+      },
+      "33": {
+        "start_ms": 1.1680225636363637,
+        "end_ms": 1.8169239878787877,
+        "width_ms": 0.6489014242424243,
+        "width_in_slots": 1.2978028484848485
+      }
+    }
+  },
+  "C2": {
+    "verdict": "Jakes spectrum specification verified for Rayleigh taps; normalized J0 correlation follows from the Fourier transform",
+    "source": {
+      "url": "https://www.etsi.org/deliver/etsi_tr/138900_138999/138901/19.05.00_60/tr_138901v190500p.pdf",
+      "version": "19.5.0",
+      "release": 19,
+      "date": "2026-09",
+      "section": "7.7.2",
+      "printed_page": 91,
+      "pdf_page_1based": 92,
+      "pages": 167,
+      "sha256": "6d29a37c1f254f4b9f8fd73a0be66bdb4480c6b32d0a64ef27505ca4188b1e4c",
+      "verified_time": 1792836625.937674,
+      "opened_original_via_web_and_pymupdf": true,
+      "quote": "The Doppler spectrum for each tap is characterized by a classical (Jakes) spectrum shape"
+    },
+    "limitations": "The first Rician tap in TDL-D/E also has a spectral line at 0.7 f_D; the full TDL correlation is not equated with J0"
+  },
+  "C3": {
+    "dt_s": 0.0013,
+    "max_phase_degrees": 30,
+    "boundary_Hz": 64.1025641025641,
+    "strict_requirement": "abs(delta_f) < 64.1025641025641 Hz",
+    "formula": "2*pi*abs(delta_f)*dt < pi/6"
+  }
+}

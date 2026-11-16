@@ -1,0 +1,25 @@
+{
+  "claim": "G2.1",
+  "time_utc": "2026-10-15T06:08:38.311691+00:00",
+  "reason": {
+    "verdict": "Falsification threshold reached",
+    "phase_minus_CSI": {
+      "mean": 0.07637978586489227,
+      "ci95": [
+        0.06410529955369221,
+        0.08857598895098867
+      ],
+      "per_seed": [
+        0.09143136791791268,
+        0.09115722447035901,
+        0.051074895605407566,
+        0.06691158970122113,
+        0.10154272410664966,
+        0.059042631918414634,
+        0.0595269777338876,
+        0.09035087546528586
+      ]
+    }
+  },
+  "action": "Stop extending this claim without additional grids, seeds, or tuning; continue the other prespecified independent claims and d0 diagnostics."
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "seed": 96161001,
+    "array_sha256": {
+      "z0": "c70075d8448cdb2c0ad0adc3363605b8c78df35e37e4e7f2c9f2770e09c5d09d",
+      "train_channel": "e6fd9beb58786781954a74ec727650cf31c238056294390978436466350b7b11",
+      "train_noise": "2b23b26052e1aeedf43e4308fd646f235c9ec3b496fd744fc3d8994d33e8eb19",
+      "train_labels": "7fec2c7603b02fc16eb3d32b80f098fd7f9bab56264d089b9e08e6ba8751dfff",
+      "test_channel": "c64a81d54f841d76426659af3bb9f8ad708df258839eec51e30892d8db9308e9",
+      "test_noise": "09c2e83c50d2c132d13273b9781d23ce1fe5f414f9f4eb4842c2e804936d005e",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161002,
+    "array_sha256": {
+      "z0": "8a40f4771ed6593016cb05810593ad5a489c2e7cab2e6019ace9b5138533cd06",
+      "train_channel": "095f24af429feb1ff794ebf1cff60e6830c40d026a0fa09e0a0edc83e3a1e26f",
+      "train_noise": "2e4636105f9d0a17655c7a0744e9687c958d1b3b41e9b63ff3a4412aba295ec0",
+      "train_labels": "79306398050af99e81057e168fa128314fb2fec622e19e0ef9392530ab90818e",
+      "test_channel": "c455411af243c5dd76951c643891120c84b9219656b5983355a002ff12ce7dce",
+      "test_noise": "d3b612391448d47345a7c48bc61570ce884e73949ed0490e97e4153a97548cf0",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161003,
+    "array_sha256": {
+      "z0": "51433a180e2dbc6cdbc3ff3c5cf8dbf1a7c0fd44385bcd08dfedfb198d297172",
+      "train_channel": "590a17d36a8efa7ee9450a3f9e58c6e0605d375b312b60f5552f0e4bbe201632",
+      "train_noise": "fae6beae274a4624b5cac1bdd8ce487154072362dd11bb43bd743441b903db87",
+      "train_labels": "0d49f2b0449499f5308752607721937cd852f056ff6cd227b14df7dd99a22f2a",
+      "test_channel": "a7298a7b11c17f64b4df6cf6d68919ebb06b0315ff7999768a5a557b70bb2cbf",
+      "test_noise": "92c343cad226cdb7594a1cd58e9cb66b1fd59d713bcdd88ab97e9fa39dc3f2c2",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161004,
+    "array_sha256": {
+      "z0": "695563ee3a0cb4dc3daaafe5b18fae99cfe1e8f6e119c7f64b4eb4336f2823fb",
+      "train_channel": "5aa4d884e5d7c93a329bfa7667fc1c11c2fa71ae3b8eb491712ad78336971384",
+      "train_noise": "e50bd825f43627412af6b9bcade38d5233deb0905b77d7625a2651bbd78761ae",
+      "train_labels": "29bae043d12486b050b174652756c03ae235410ba49bbdf72c1b7357b01acaf3",
+      "test_channel": "cd829b6ea2ae4ce8c318ee4e391a849fd427e1dd77c3f965b3cd2f1e0e4a5438",
+      "test_noise": "f8330e64056afdd215692e74cdacfca1de96f82b9a383acc768c9ba3a32cf940",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161005,
+    "array_sha256": {
+      "z0": "1084404b33220a1dff0dc391f93360eddc10ef34f838abc7c5fed904fb423e96",
+      "train_channel": "6634400a71d44d10198d4a4d7896b81a1d98f618bc64dbf17710fe924d9f4d1c",
+      "train_noise": "f14f8eca3d1e819a60f1297229361c01734f9699dd187df1864a89b7b8bbe900",
+      "train_labels": "b35ecf00aa37e8032d5a5b16eaa4ea1b16ba17ff3334f064ea202281a00b0857",
+      "test_channel": "d168468aa659973d8323fb42aedac8697863b3a7a05116881dda06f4313ced19",
+      "test_noise": "44e761ad01484d2828f047784c3f6eecdcaa147915cbf51b2345a2247971d12a",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161006,
+    "array_sha256": {
+      "z0": "33ecb418fd43ec39df70240868ed67767304d90c146642db0a6916b546c9d8bb",
+      "train_channel": "ca002db9e6035dec923430187fd695f23566329deb0bd43684da660fff5a100f",
+      "train_noise": "3267bc0485ac8c9253b64d356287eaa6707a31eefb84d0281010db77dd6e0c8c",
+      "train_labels": "afaefa8c2230def46f092d2df4f23b8aa8ec0632fb1cc79b74068ad0a3daccaa",
+      "test_channel": "d3862fed4e4f0ab22ef544a1d80812e782b435ce5f47af989d2ea064bd10011f",
+      "test_noise": "ffc9389d59e9d61cfbc6f167d280fba019d168a17abd45ebe33dbff3c3644d9b",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161007,
+    "array_sha256": {
+      "z0": "0b43e3dd27856514badac13734b154786154cdd4ddb412fdd0e77aa2ec3dbcb3",
+      "train_channel": "19d762e2ee8e39671dfbd54f7fa4d1fe47412584c274aefc41cbfd49441811a0",
+      "train_noise": "ca24e7f8015777d6bc2efe9407cde8912d621250220aef830e3de885f38e2c7d",
+      "train_labels": "969af254a569e9c50062c4eca6057d6f3dbf36eab5c50887426540322a9eacf6",
+      "test_channel": "38cfbc7cce696b71ab0b15dd5213f0702be4ed6d99c165b344932b2cd77acacd",
+      "test_noise": "eac009198664159d0d1d3923a0f6691d08ab339b4aa57679acdc77cd45e0bfc3",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  },
+  {
+    "seed": 96161008,
+    "array_sha256": {
+      "z0": "2abb7d6a0d92c0d3824955760913ab06fb546a844ff1250f53b5f04fe18cc5cd",
+      "train_channel": "ef64b511bb1832ecaf1b81b0443a6b5f2444847e695b2b5d254404e9ed62457e",
+      "train_noise": "66e9c408f77c66af540a5ac52d7422cf1cf37115522ac6d5c1f045e54ab97ca0",
+      "train_labels": "c8389317a19eb51bf79d75e31d6057153724daf709f5daffe7e75d3259825acf",
+      "test_channel": "9143b7b774b23e8cbfd1900ea8229adcb209c1d424237f85f29a95198511dccf",
+      "test_noise": "1f9616f2ca58521d69f72e1a164eef9487587ed80f703c89c91b72a07e0991a7",
+      "test_labels": "46ddb6da35444b6dbf820d526c3f09741277a0e6180a47ac23c686808d0a0978"
+    },
+    "controls": [
+      {
+        "displacement": 0.38,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.4,
+        "method": "oracle",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.55,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      },
+      {
+        "displacement": 0.7,
+        "method": "phase",
+        "initial_codebook_exact": true,
+        "train_channel_exact": true,
+        "test_channel_exact": true,
+        "test_ce_error": 0.0,
+        "test_errors_exact": true
+      }
+    ]
+  }
+]

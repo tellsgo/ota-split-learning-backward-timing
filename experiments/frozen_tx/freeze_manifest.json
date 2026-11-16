@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-15T00:53:31.927808+00:00",
+  "stage": "before any new-arm training, paired differences or bootstrap",
+  "sha256": {
+    "infra/jobs.py": "3ca2d8be551104de83e8b414588bfda69b29105b2ea0bd36b4eda43d7410525e",
+    "src/analyze.py": "a7a9742d8ced60a7df3520c56a91a70d6966cab07a9c40ad392151014e2e2e11",
+    "src/communication.py": "087acf4801bc6949485338c10e27684318509324ae1e72e1c0b50d3bcf3ec53b",
+    "src/core.py": "20c28046ad3ce8785e02b2123edeacf01cbfff7ed4aaf110fd69809bec2059d0",
+    "src/frozen_tx.py": "802d175e341162cd726cafa18087eeda04e2520e02bee241c37777de9874b16b",
+    "src/reference_geo.py": "7eaca7603f04ab44455e32f1df106b73aaf6a71a484564fedc08043234da018b",
+    "reference/all_runs.json": "26098e404ef73981c60e48fa7ddc9ffe7bae09db082da7daa31654b09758bfc1",
+    "reference/historical_freeze_manifest.json": "800107ef9161f3fe7c700b9c8315797392489e30e9b0c9f6b4f087d57f9b6444",
+    "reference/historical_runner.py": "3965f186f65caaab08957be9b752950b18c532910741ba3ad3c46a5731d2dab3"
+  }
+}

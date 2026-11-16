@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    5000000,
+    5000001,
+    5000002,
+    5000003,
+    5000004,
+    5000005,
+    5000006,
+    5000007
+  ],
+  "displacements": [
+    0.45,
+    0.55
+  ],
+  "messages": 8,
+  "nt": 2,
+  "nr": 1,
+  "slots": 4,
+  "features": 16,
+  "batch": 32,
+  "quota": 32768,
+  "test_blocks": 8192,
+  "calibration_pairs": 64,
+  "forward_noise_variance": 0.25,
+  "reverse_noise_variance": 0.0009,
+  "encoder_lr": 0.01,
+  "receiver_lr": 0.03,
+  "regularization": 0.0001,
+  "score_sigma": 0.1,
+  "cpu_seconds": 180,
+  "wall_seconds": 300,
+  "task": "pbp-comm-nonoverlap-20261014-5000000",
+  "bootstrap_seed": 425999,
+  "primary": "Within each seed average matrix-vs-raw CE gain across .45 and .55; then mean>=.02, positive seed-bootstrap95% interval, >=6/8 positive seeds. Both delays contribute once per independent seed; no16-unit pooling."
+}

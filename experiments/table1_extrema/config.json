@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    202610150201,
+    202610150202,
+    202610150203,
+    202610150204,
+    202610150205,
+    202610150206,
+    202610150207,
+    202610150208
+  ],
+  "bootstrap_seed": 202610159999,
+  "bootstrap_replicates": 20000,
+  "displacements": [
+    0.383,
+    0.61,
+    1.117,
+    1.619
+  ],
+  "execution_order": [
+    0.61,
+    1.117,
+    1.619,
+    0.383
+  ],
+  "methods": {
+    "phase_64": "phase",
+    "uncorrected": "raw",
+    "CSI": "csi"
+  },
+  "pilot_pairs": 64,
+  "messages": 8,
+  "nr": 1,
+  "forward_noise_variance": 0.1,
+  "reverse_noise_variance": 0.0009
+}

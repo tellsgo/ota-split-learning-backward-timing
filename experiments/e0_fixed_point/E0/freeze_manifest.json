@@ -1,0 +1,16 @@
+{
+  "time": 1794819951.760341,
+  "hashes": {
+    "E0/src/launch.py": "974cb2f33c64770b854390c99e488f6436ebca0147c635a83a62c23a4af48a38",
+    "shared/src/evaluate.py": "c8ceb626adf5946e2b8d0df1f38456547c77a59d1f3a8d368fad0fc702b79ddf",
+    "shared/src/communication_siso.py": "722bad261309cd4bbab84fb23576d2cde53bdcd48788f0e4ecb3c3253c4a9167",
+    "shared/src/learning_siso.py": "bc404d57e996540133c6dc134e54439ce29c3b78741936454965996c0e86b2e5",
+    "shared/src/learning_core_original.py": "a62eb79ddd40013fc899413ae593125a131afb9ce5372276bfa08af3dfa91f9a",
+    "shared/src/experiment_original.py": "70b4504e94e8c799f690de922b011872e8eff346f80308fddd90fa49dcd5e86d",
+    "shared/src/siso.py": "22e91968b10d5670d8d7aef25d929171aa8beb4c4821cf46036458622059a400",
+    "shared/src/communication_original.py": "867f1ad565402fbe36d953ed11836a10034f64afb3fede5d03f7fc63fdd93538",
+    "shared/configs/config.json": "df388823b95e526e70906ba49b7be8adcb51d08c9a8222fef0e4ec7c3fd7b6a4",
+    "shared/configs/communication.json": "99c2dd77cefefdc75f9e0eccdc1bdbe6b4f481739e0889e99315d3d1ee8af5da",
+    "infra/jobs.py": "b02ffeebe62c735b54ef8ede77fea368bd4952861b554dbe1606faebbd629928"
+  }
+}
